@@ -1,22 +1,18 @@
-import './style.css';
+import "./style.css";
+import CardInput from "../../components/CardInput";
 
 export const HomePage = () => {
   return (
     <div className="container">
       <header>
         <div className="logo" />
-        <h1>React webová aplikace</h1>
+        <h1>Kreditní karta</h1>
       </header>
       <main>
-        <p>
-          Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
-          {" "}
-          <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>
-          .
-        </p>
+        <CardInput />
       </main>
       <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
+        <p></p>
       </footer>
     </div>
   );
