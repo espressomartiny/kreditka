@@ -5,8 +5,7 @@ export const HomePage = () => {
   return (
     <div className="container">
       <header>
-        <div className="logo" />
-        <h1>Kreditní karta</h1>
+        <h1>kreditní karta</h1>
       </header>
       <main>
         <CardInput />

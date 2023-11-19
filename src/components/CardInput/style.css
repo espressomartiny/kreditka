@@ -1,0 +1,23 @@
+.credit-card {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.credit-card-input {
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+    display: block;
+}

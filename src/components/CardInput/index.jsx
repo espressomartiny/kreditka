@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import "./style.css";
 
 const CardInput = () => {
   const [cardNumber, setCardNumber] = useState(["", "", "", ""]);
@@ -26,9 +27,10 @@ const CardInput = () => {
   };
 
   return (
-    <div>
+    <div className="credit-card">
       {cardNumber.map((value, index) => (
         <input
+          className="credit-card-input"
           key={index}
           ref={inputRefs[index]}
           type="text"
